@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+<h1>Welcome to my upgrade</h1>
+
+{% block content %}
+
+<form method="POST"> {% csrf_token %}	
+{{ frm.as_p }}
+<input type="submit" value="Save">
+</form>
+
+{% endblock content %}
+

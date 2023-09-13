@@ -10,12 +10,9 @@ def laptops_view(request, *args, **kwargs):
 	if form.is_valid():
 		form.save()
 		form = LaptopForm()
-
 	context = {
-
-		'form':form
+		"form":form
 	}
-
 	return render(request, "mkts/laptop_creat.html", context)
 
 

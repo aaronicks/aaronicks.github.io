@@ -16,6 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from product.views import laptop_view, about_view, contact_view, laptops_view
+from project.views import contact_views, contact_forms
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -23,4 +24,6 @@ urlpatterns = [
     path('about/', about_view, name="about"),
     path('contact/', contact_view, name="contact"),
     path('create/', laptops_view, name="create"),
+    path('contacts/', contact_views, name="contact"),
+    path('form/', contact_forms, name="form")
 ]
