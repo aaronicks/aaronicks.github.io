@@ -1,0 +1,140 @@
+
+body { /* global celarations */
+ background-color: #61122f;
+ font-size: 16px;
+ color: #fff;
+ font-family: 'Oxygen', sans-serif;
+ /*font-family: 'Questrial', sans-serif;*/
+}
+
+#header-nav { /* HEADER */
+	border-radius: 0;
+	border: 0;
+	background-color: #f6b319;
+}
+
+#logo-img {
+	background: url('../images/restaurant-logo_large.png') no-repeat;
+	width: 150px;
+	height: 150px;
+	margin: 10px 15px 10px 0;
+}
+.navbar-brand {
+	padding-top: 25px;
+}
+.navbar-brand h1 {
+	font-family: 'Questrial', sans-serif;
+	color: #557c3e;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+.navbar-brand p {
+	color: #000;
+	text-transform: uppercase;
+	margin-top: 15px;
+	font-size: .7em;
+	text-shadow: 1px 1px 1px #444;
+}
+.navbar-brand p span {
+	vertical-align: middle;
+}
+#nav-list {
+	margin-top: 15px;
+}
+#nav-list a {
+	color: #951c49;
+	text-align: center;
+}
+#nav-list a:hover {
+	/*background-color: #e7e7e7;*/
+
+}
+
+#nav-list span {
+	font-size: 1.6em;	
+}
+#nav-list a:hover {
+	background-color: #e7e7e7;
+}
+#nav-list span {
+	font-size: 1.6em;
+	padding: 10px;
+}
+#phone article {
+	font-size: 1.6em;
+	border: 1px solid #61122f;
+	padding: 10px;
+	font-weight: bold;
+}
+#phone a{
+	margin-top: 5px;
+}
+#phone p {
+	margin-top: -7px;
+	text-align: center;
+	font-style: italic;
+	color: #557c3e;
+	text-shadow: 1px 1px 1px #333 ;
+}
+#phone a:hover {
+	background-color: #e7e7e7;
+}
+.navbar-header .icon-bar {
+	border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+	border-color: #f6b319;
+	clear: both;
+	margin-top: -30px;
+}
+/* END HEADER */
+
+/**************Large Device only********/
+@media(min-width:1200px) {
+
+}
+
+/**************Medium Device only********/
+@media(min-width:992px) and (max-width:1199px) {
+/*Header*/
+#logo-img {
+	background: url('../images/restaurant-logo_medium.png') no-repeat;
+	width: 100px;
+	height: 100px;
+	margin: 5px 5px 5px 0;
+}
+/*end Header */
+}
+
+/**************Small Device only********/
+@media(min-width:768) and (max-width:991px) {
+
+}
+/**************Extra Small Device only********/
+@media(max-width:767px) {
+	/* header */
+.navbar-brand { 
+	padding-top: 10px;
+	height: 80px;
+}
+.navbar-brand h1 { /* Resturant name */
+	padding-top: 10px;
+	font-size: 5vw;
+}
+.navbar-brand p { /*kosher cert */
+	font-size: .6em;
+	margin-top: 12px;
+}
+.navbar-brand img { /* Star-K */
+	height: 20px;
+}
+}
