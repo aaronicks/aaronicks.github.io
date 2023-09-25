@@ -193,7 +193,50 @@ body { /* global celarations */
 #menu-categories-title + div {
 	margin-bottom: 50px;
 }
-
+.menu-item-tile {
+	margin-bottom: 25px;
+}
+.menu-item-tile hr {
+	width: 80%;
+}
+.menu-item-tile, .menu-item-price {
+	font-size: 1.1em;
+	text-align: right;
+	margin-top: -15px;
+	margin-right: -15px;
+}
+.menu-item-tile .menu-item-price span {
+	font-size: .6em;
+}
+.menu-item-photo {
+	position: relative;
+	border: 2px solid #3f0c1f;
+	overflow: hidden;
+	padding: 0;
+	margin-right: -15px;
+	margin-left: auto;
+	margin-bottom: 20px;
+	max-width: 250px;
+}
+.menu-item-photo div {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 80%;
+	background-color: #557c3e;
+	text-align: center;
+}
+.menu-item-description {
+	padding-right: 30px;
+}
+h3.menu-item-title {
+	margin: 0 0 10px;
+	font-size: 1.2em;
+}
+.menu-item-details {
+	font-size: .9em;
+	font-style: italic;
+}
 /**************Large Device only********/
 @media(min-width:1200px) {
 .container .jumbotron {
@@ -308,6 +351,15 @@ body { /* global celarations */
 	width: 360px;
 	margin: 0 auto 15px auto;
 }
+.menu-item-photo {
+	margin-right: auto;
+}
+.menu-item-tile .menu-item-price {
+	text-align: center;
+}
+.menu-item-description {
+	text-align: center;
+}
 }
 /**************super extra Small Device only********/
 @media(max-width:479px) {
@@ -318,6 +370,14 @@ body { /* global celarations */
 .navbar-brand h1 {/* Returant name */
 	padding-top: 5px;
 	font-size: 7vw;
+}
+.col-xxs-12 {
+	position: relative;
+ 	min-height: 1px;
+  	padding-right: 15px;
+  	padding-left: 15px;
+  	width: 100%;
+  	float: left;
 }
 }
 
