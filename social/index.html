@@ -3,136 +3,162 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Social Books</title>
+	<title>Afolabi Project</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700;1,800&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/c75ad3936f.js" crossorigin="anonymous"></script>
 </head>
 <body>
 	<header>
 		<nav>
 			<div class="nav-left">
-			<h3 class="logo">Aaronicks Project</h3>
-			<ul>
-				<li><img src="images/notification.png"></li>
-				<li><img src="images/inbox.png"></li>
-				<li><img src="images/video.png"></li>
-			</ul>
-			</div><!--Nav left ends-->
-			<div class="nav-right">
-			<div class="search-box">
-				<img src="images/search.png">
-				<input type="text" name="search" placeholder="     Search">
+				<h3 class="logo">Aaronicks Project</h3>
+				<ul>
+					<li><img src="images/notification.png"></li>
+					<li><img src="images/inbox.png"></li>
+					<li><img src="images/video.png"></li>
+				</ul>
 			</div>
-			<div class="user-icon">
-				<img src="images/profile-pic.png">
-				<div class="status"></div>
-			</div>	
-			</div><!--navright ends-->
-		</nav><!----navigation ends --->
 
-
-		<div class="container">
-			<div class="left-sidebar">
-				<div class="imp-links">
-					<a href="#"><img src="images/news.png" alt="">Latest News</a>
-					<a href="#"><img src="images/friends.png" alt="">Friends</a>
-					<a href="#"><img src="images/group.png" alt="">Group</a>
-					<a href="#"><img src="images/marketplace.png" alt="">Marketplace</a>
-					<a href="#"><img src="images/watch.png" alt="">Watch</a>
-					<a href="#">See More</a>
-					<hr class="partition">
-
-					<div class="shortcut">
-						<p>Your Shortcut</p>
-						<a href="#"><img src="images/shortcut-1.png">Web Developers</a>
-						<a href="#"><img src="images/shortcut-2.png">App Developer</a>
-						<a href="#"><img src="images/shortcut-3.png">Penetration Testing</a>
-						<a href="#"><img src="images/shortcut-4.png">Graphic Design</a>
-					</div><!----shortcut--->
-				</div><!----imp-links--->
-			</div><!--left sidebar ends-->
-
-
-
-			<div class="main-content">
-
-				<div class="story-gallery">
-					<div class="story">
-						<img src="images/upload.png">
-						<p>Post Story</p>
-					</div>
+			<div class="nav-right">
+				<div class="search-box">
+					<img src="images/search.png" class="search">
+					<input type="text" placeholder="search">
+				</div> 
+				<div class="nav-user-icon online">
+					<img src="images/profile-pic.png">
 				</div>
-
-			</div><!--main ends-->
-
-
-
-
-			<div class="right-sidebar">
-				<div class="side-bar-title">
-					<h4>Events</h4>
-					<a href="#">See All</a>
-				</div>
-
-					<div class="event">
-						<div class="left-event">
-							<h3>18</h3>
-							<span>March</span>
-						</div>
-
-						<div class="right-event">
-							<h4>Social Media</h4>
-							<p><i class="fa-sharp fa-solid fa-location-dot" style="color: #626262;"></i> Aaronicks Tech Hub</p>
-							<a href="#">More Info</a>
-						</div>
-					</div><!----event ends here-->
-
-					<div class="event">
-						<div class="left-event">
-							<h3>22</h3>
-							<span>December</span>
-						</div>
-
-						<div class="right-event">
-							<h4>Mobile Marketing</h4>
-							<p><i class="fa-sharp fa-solid fa-location-dot" style="color: #626262;"></i></i> Mobnicks Tech Hub</p>
-							<a href="#">More Info</a>
-						</div>
-					</div><!----event ends here-->
-
-					<div class="side-bar-title">
-						<h4>Advertisement</h4>
-					<a href="#">Close</a>
-				</div>
-
-				<img src="images/advertisement.png" class="sidebar-ads">
-
-				<div class="side-bar-title">
-						<h4>Conversation</h4>
-					<a href="#">Hide Chat</a>
-				</div>
-				<div class="online-list">
-					<img src="images/member-2.png">
-					<div class="online">
-					</div>
-					<p>Afolabi Solanke</p>
-				</div>
-				<div class="online-list">
-					<img src="images/member-1.png" >
-					<div class="online"></div>
-					<p>Ana Mina</p>
-				</div>
-				<div class="online-list">
-					<img src="images/member-4.png" >
-					<div class="status"></div>
-					<div class="online"></div>
-					<p>Jacson Aston</p>
-					
-				</div>
-			</div><!--right sidebar ends-->
-		</div><!---container ends --->
+			</div>
+		</nav>
 	</header>
 
+	<div class="container">
+
+		<!------left-side---->
+		<div class="left-sidebar">
+			<div class="imp-links">
+				<a href="#"><img src="images/news.png" alt="latest news">latest news</a>
+				<a href="#"><img src="images/friends.png" alt="friends">friends</a>
+				<a href="#"><img src="images/group.png" alt="group">group</a>
+				<a href="#"><img src="images/marketplace.png" alt="marketplace">marketplace</a>
+				<a href="#"><img src="images/watch.png" alt="watch">watch</a>
+				<a href="#">See More</a>
+			</div>
+			<div class="shortcuts-links">
+				<p>Your Shortcuts</p>
+				<a href="#"><img src="images/shortcut-1.png"> Web Developers</a>
+				<a href="#"><img src="images/shortcut-2.png"> Mobile Developers</a>
+				<a href="#"><img src="images/shortcut-3.png"> Data Analyst</a>
+				<a href="#"><img src="images/shortcut-4.png"> Graphic Designer</a>
+			</div>
+		</div>
+
+
+		<!------main-content---->
+		<div class="main-content">
+
+
+			<div class="story-gallery">
+				<div class="story story1">
+					<img src="images/upload.png" class="upload">
+					<p>Post Story</p>
+				</div>
+				<div class="story story2">
+					<img src="images/member-1.png" class="upload">
+					<p>Afolabi Solanke</p>
+				</div>
+				<div class="story story3">
+					<img src="images/member-2.png" class="upload">
+					<p>Jackeson Meyer</p>
+				</div>
+				<div class="story story4">
+					<img src="images/member-3.png" class="upload">
+					<p>Alison Mitchel</p>
+				</div>
+				<div class="story story5">
+					<img src="images/member-4.png" class="upload">
+					<p>David Gregory</p>
+				</div>
+			</div>
+
+
+		</div>
+
+
+		<!------right-side---->
+		<div class="right-sidebar">
+
+			<div class="sidebar-title">
+				<h4>Events</h4>
+				<a href="#">See All</a>
+			</div>
+
+			<div class="event">
+
+				<div class="left-event">
+					<h3>18</h3>
+					<span>March</span>
+				</div>
+
+				<div class="right-event">
+					<h4>Web Dev Training</h4>
+					<p><i class="fa-light fa-map-location" style="color: #1876f2;"></i>Aaronicks Hub</p>
+					<a href="#">More Info</a>
+				</div>
+
+			</div>
+			<div class="event">
+
+				<div class="left-event">
+					<h3>30</h3>
+					<span>December</span>
+				</div>
+
+				<div class="right-event">
+					<h4>Graphic Designing Training</h4>
+					<p><i class="fa-light fa-map-location" style="color: #1876f2;"></i>Aaronicks Hub</p>
+					<a href="#">More Info</a>
+				</div>
+
+			</div>
+			<div class="sidebar-title sidebar-title-ads">
+				<h4>Advertisement</h4>
+				<a href="#">Close</a>
+			</div>
+			<img src="images/advertisement.png" class="sidebar-ads">
+
+			<div class="sidebar-title sidebar-title-ads">
+				<h4>Conversation</h4>
+				<a href="#">Hide Chat</a>
+			</div>
+
+			<div class="online-list">
+				<div class="online">
+					<img src="images/member-1.png">
+				</div>
+				<p>Alison Mina</p>
+			</div>
+
+			<div class="online-list">
+				<div class="online">
+					<img src="images/member-2.png">
+				</div>
+				<p>Afolabi Solanke</p>
+			</div>
+
+			<div class="online-list">
+				<div class="online">
+					<img src="images/member-3.png">
+				</div>
+				<p>Samona Rose</p>
+			</div>
+
+		</div>
+	</div>
+<body>
 </body>
+
 </html>
 
