@@ -229,54 +229,108 @@ header nav {
 
 .story-gallery {
 	display: flex;
-	justify-content: space-between;
+	align-items: center;
 	margin-bottom: 20px;
 }
 .story {
 	flex-basis: 18%;
-	padding-top: 32%;
 	position: relative;
+	padding-top: 32%;
+	border-radius: 10px;
 	background-position: center;
 	background-size: cover;
-	border-radius: 10px;
+	margin-right: 15px;
 }
 .story img {
 	position: absolute;
-	width: 45px;
-	border-radius: 50%;
 	top: 10px;
 	left: 10px;
+	width: 45px;
+	border-radius: 50%;
 	border: 5px solid #1876f2;
 }
 .story p {
 	position: absolute;
-	text-align: center;
-	width: 100%;
 	bottom: 10px;
+	width: 100%;
 	color: #fff;
-	font-weight: bold;
-	font-size: 1.1em;
+	font-size: 1.2em;
+	font-weight: 600;
+	text-align: center;
 }
 .story1 {
-	background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(images/status-1.png);
+	background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(images/icon.png);
 }
 .story2 {
-	background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(images/status-2.png);
+	background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(images/status-1.png);
 }
 .story3 {
-	background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(images/status-3.png);
+	background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(images/status-2.png);
 }
 .story4 {
-	background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(images/status-4.png);
+	background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(images/status-3.png);
 }
 .story5 {
-	background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(images/status-5.png);
+	background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(images/status-4.png);
 }
+
 .story.story1 img {
+	border: 0;
 	top: unset;
 	left: 50%;
 	bottom: 40px;
-	transform: translate(-50%);
-	border: 0;
+	transform: translateX(-50%);
 	width: 35px;
+}
+.write-post-container {
+	width: 100%;
+	background: #fff;
+	border-radius: 6px;
+	padding: 20px;
+	columns: #626262;
+}
+.user-profile {
+	display: flex;
+	align-items: center;
+}
+.user-profile img {
+	width: 45px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.user-profile p {
+	margin-bottom: -5px;
+	font-weight: 500;
+	color: #626262;
+}
+.user-profile small {
+	font-size: .7em;
+}
+.post-input-container {
+	padding-left: 55px;
+	padding-top: 20px;
+}
+.post-input-container textarea {
+	width: 100%;
+	border: 0;
+	outline: 0;
+	border-bottom: 1px solid #ccc;
+	background: transparent;
+	resize: none;
+}
+.add-post-links {
+	display: flex;
+	margin-top: 10px;
+}
+.add-post-links a {
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	color: #626262;
+	margin-right: 30px;
+	font-size: 13px;
+}
+.add-post-links a img {
+	width: 20px;
+	margin-right: 10px;
 }
