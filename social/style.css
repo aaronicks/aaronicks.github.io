@@ -254,7 +254,7 @@ header nav {
 	bottom: 10px;
 	width: 100%;
 	color: #fff;
-	font-size: 1.2em;
+	font-size: .9em;
 	font-weight: 600;
 	text-align: center;
 }
@@ -287,7 +287,7 @@ header nav {
 	background: #fff;
 	border-radius: 6px;
 	padding: 20px;
-	columns: #626262;
+	color: #626262;
 }
 .user-profile {
 	display: flex;
@@ -309,6 +309,7 @@ header nav {
 .post-input-container {
 	padding-left: 55px;
 	padding-top: 20px;
+	padding-right: 30px;
 }
 .post-input-container textarea {
 	width: 100%;
@@ -333,4 +334,89 @@ header nav {
 .add-post-links a img {
 	width: 20px;
 	margin-right: 10px;
+}
+.post-container {
+	width: 100%;
+	background: #fff;
+	border-radius: 6px;
+	padding: 20px;
+	color: #626262;
+	margin-right: 20px 0;
+	margin-top: 25px;
+}
+.user-profile span {
+	font-size: 13px;
+	color: #626262;
+}
+.post-text {
+	color: #9a9a9a;
+	margin: 15px 0;
+	font-size: 15px;
+}
+.post-text span {
+	color: #626262;
+	font-weight: 500;
+}
+.post-text a {
+	color: #1876f2;
+	text-decoration: none;
+}
+.post-img {
+	width: 100%;
+	border-radius: 4px;
+	margin-bottom: 5px;
+}
+.post-row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.activity-icons div img {
+	margin-right: 10px;
+	width: 18px;
+}
+.activity-icons div {
+	display: inline-flex;
+	align-items: center;
+	margin-right: 30px;
+}
+.post-profile-icon {
+	display: flex;
+	align-items: center;
+}
+.post-profile-icon img {
+	width: 20px;
+	margin-right: 5px;
+	border-radius: 50%;
+}
+.post-row a {
+	color: #626262;
+}
+.load-more-btn {
+	display: block;
+	margin: auto;
+	cursor: pointer;
+	padding: 5px 10px;
+	border: 1px solid #9a9a9a;
+	background: transparent;
+	color: #626262;
+	border-radius: 4px;
+}
+.footer p{
+	text-align: center;
+	color: #9a9a9a;
+	padding: 10px 0 20px;
+	font-size: 13px;
+}
+.settings-menu {
+	width: 90%;
+	position: absolute;
+	max-width: 350px;
+	height: 500px;
+	background: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+	border-radius: 4px;
+	top: 108%;
+	right: 0;
 }
