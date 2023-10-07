@@ -1,0 +1,115 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Oxygen', sans-serif;
+}
+
+.header{
+	height: 100%;
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/banner1.jpg'); 
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.header img {
+	padding-top: 5px;
+	padding-bottom: 50%;
+	position: relative;
+}
+.header h1 {
+	position: absolute;
+	right: 20%;
+	bottom: 50%;
+	color: #fff;
+	font-size: 55px;
+	font-family: 'Dela Gothic One', cursive;
+	margin-bottom: 20px;
+}
+.header p {
+	position: absolute;
+	right: 40%;
+	bottom: 47%;
+	color: #fff;
+}
+.login-btn {
+	width: 100px;
+	height: 40px;
+	border-radius: 30px;
+	border: 2px solid #fff;
+	background: transparent;
+	position: absolute;
+	top: 18px;
+	right: 150px;
+	color: #fff;
+}
+.login-btn:hover, .login-btn:active {
+	background: linear-gradient(#00ff7e,#1f3d90);
+	border: 1px solid #fff;
+}
+.input-group {
+	border-radius: 30px;
+	margin-left: 90px;
+	width: 90%;
+	max-width: 500px;
+	position: relative;
+	bottom: 280px;
+	left: 300px;
+	overflow: hidden;
+}
+
+.header .input-group-append {
+	position: absolute;
+	bottom: 0px;
+	right: 45px;
+	z-index: 100;
+	border-radius: 10px;
+}
+.input-group .input-group-text {
+	background-image: linear-gradient(#00ff7e, #1f3d90);
+	font-weight: 500;
+	color: #fff;
+	border-color: #fff;
+	box-shadow: none;
+	border-radius: 30px;
+}
+.features {
+	padding: 100px 0;
+}
+h1 {
+	text-align: center;
+	padding-bottom: 30px;
+	font-weight: 600;
+}
+.feature-img img {
+	width: 100%;
+}
+.price {
+	width: 50px;
+	height: 50px;
+	background: #ff5722;
+	border-radius: 50%;
+	color: #fff;
+	font-weight: 600;
+	padding: 13px;
+	box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.18);
+	position: absolute;
+	bottom: -30px;
+	left: 20px;
+}
+.feature-img {
+	position: relative;
+}
+.rating {
+	padding: 3px;
+	float: right;
+	position: absolute;
+	right: 0;
+	bottom: -1px;
+	background: #fff;
+}
+.features .fa {
+	font-size: 15px;
+	color: #ff5722;
+}
