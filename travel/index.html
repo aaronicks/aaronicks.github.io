@@ -2,61 +2,104 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
-	<script src="https://kit.fontawesome.com/c75ad3936f.js" crossorigin="anonymous"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Proxy Visas</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap" rel="stylesheet">
 </head>
-
 <body>
 <section class="header">
-	<div class="container">
-		<img src="images/proxy-logo.png" width="250px">
-		<button type="button" class="login-btn">Login</button>
-	</div>
-	<h1>Travel Across The Globe</h1>
-	<p>Subscribe to Proxy Visas YouTube Channel</p>
-	<div class="input-group col-md-6">
-		<input type="text" class="form-control" placeholder="Search Country or City">
-
-		<div class="input-group-append col-md-1">
-		<button type="submit" class="input-group-text btn">Search</button>
-
-		</div>
-	</div>
-</section>
-<!-- header ends< -->
-
-<section class="features">
-	<h1>Featured Destinations</h1>
-<div class="container">
-	<div class="row">
-		<div class="col-md-4">
-			<div class="feature-box">
-				<div class="feature-img">
-					<img src="images/1.jpg">
-					<div class="price">
-						<p>$78</p>
-					</div>
-					<div class="rating">
-						<i class="fa fa-solid fa-star"></i>
-						<i class="fa fa-solid fa-star"></i>
-						<i class="fa fa-solid fa-star"></i>
-						<i class="fa fa-regular fa-star-half-stroke"></i>
-						<i class="fa fa-regular fa-star"></i>
-					</div>
+	<nav id= "header-nav" class="navbar navbar-default">
+		<div class="container">
+			<div id="logo-img" class="navbar-left">
+				<a href="index.html" class="">
+				<img src="images/proxy-logo.png">
+				</a>
+				<div class="navbar-brand">
+					<p>We get you from here to there...</p>
 				</div>
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-navbar"  aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+	    		</button>
+			</div> 
+			<!-- End of Navbar left -->	
+			<div id="collapsable-navbar" class="collapse navbar-collapse">
+				<ul id="nav-list" class="nav navbar-nav navbar-right">
+					<li>
+					<a href="#" class="login">Login</a>
+					</li>
+				</ul>
+				<ul id="nav-list" class="nav navbar-nav navbar-right">
+					<li>
+					<a href="#">Contact</a>
+					</li>
+				</ul>
+				<ul id="nav-list" class="nav navbar-nav navbar-right">
+        		<li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Apply <span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">Client</a></li>
+		            <li><a href="#">New Customer</a></li>
+		            <li><a href="#">New Customer</a></li>
+		            <li><a href="#">New Customer</a></li>
+		            
+          		</ul>
+        	</li>
+      	</ul>
+				<ul id="nav-list" class="nav navbar-nav navbar-right">
+					<li>
+					<a href="#">About</a>
+					</li>
+				</ul>
+				<ul id="nav-list" class="nav navbar-nav navbar-right">
+					<li>
+					<a href="#">Home</a>
+					</li>
+				</ul>
 			</div>
+			<!-- end of collasable navbar -->
+				
+				</div>
+				</div>
+			</nav>
+			<!--nav tag ends here -->
+
+			<div class="bbbootstrap">
+				<h1 class="flll take1">We Take You Round The Globe</h1>
+				<small class="flll take2">Subscribe to Tech-Nicks YouTube Channel</small>
+				<div class="container">
+					<form>
+					<span role="status" aria-live="polite" class="ui-helper-hidden-accessible">
+    				</span><input type="text" id="Form_Search" value="" 
+				    placeholder="Search" role="searchbox" 
+				    class="InputBox " autocomplete="off"><input type="submit" id="Form_Go" 
+				    class="Button" value="GO">
+				</form>
+			</div> 
+			<!-- container -->
 		</div>
-		<div class="col-md-4"></div>
-		<div class="col-md-4"></div>
-	</div>
-</div>
+		<!-- bbbotstrap -->
+		
 
-</section> 
-<!-- features ends -->
+</section>
 
+<section class="feature">
+	<h1>Featured Destinations</h1>
+</section>
+
+
+
+<!-- JQuery and Js Boot Strap -->
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
+
+
+

@@ -1,0 +1,22 @@
+ <style>
+/*   Navbar   */
+.navbar a {
+        
+    color: #fff;
+    font-weight: 500;
+}
+     .pa-fixed-header {
+  background-color: #f0ad4e !important;
+  -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+}
+
+.text-blue{
+    color: #007fff !important;
+}
+}
+/*Navbar ends*/
+
+    </style>
