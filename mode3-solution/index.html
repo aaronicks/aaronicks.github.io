@@ -4,24 +4,52 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <title>Bootstrap Starter Page</title>
+    <title>Assignmnet 3</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
 <body>
+ 
 
-  <h1>Hello Coursera!</h1>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+
+          <div class="navbar-brand">
+            <a href="#"><span>Food, LLC</span></a>
+          </div>   <!--  navbar-brand-->
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>   <!--navbar-header  -->
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul id="nav-list" class="nav navbar-nav navbar-right hidden-lg hidden-md">
+            <li><a href="#">Chicken</a></li>
+            <li><a href="#">Beef</a></li>
+            <li><a href="#">Sushi</a></li>
+          </ul>
+        </div> <!-- navbar-collpase -->
+      </div>    <!-- container fluid -->
+    </nav>
+  </header>
+
+  <div id="main-content" class="container">
+    <h1>Our Menu</h1>
+    <div class="protein">
+      <h3>Chicken</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Facere, ipsa. Reprehenderit officiis odio neque exercitationem, sequi, eos cum hic pariatur modi libero nobis. Maxime soluta excepturi nisi iste voluptatem, illum, repudiandae fugit iure dolorum esse modi, sequi labore eos omnis vel minus temporibus quo sed. Alias rerum aperiam corporis nostrum, quaerat eum ipsum, inventore porro quibusdam magni! Sequi, repudiandae modi voluptatibus vitae earum, totam iste placeat dolore illum expedita nobis esse unde consectetur cum est beatae perspiciatis reprehenderit voluptate rerum ad. Numquam totam deserunt, iure hic deleniti saepe itaque beatae magnam facere ullam assumenda earum ad non eligendi, autem, temporibus eos voluptates aspernatur laboriosam atque. Hic repellat exercitationem asperiores, voluptatum aspernatur inventore nulla labore veritatis consectetur, maiores illo harum sequi dolorum eius libero et voluptates reiciendis incidunt placeat vitae. Placeat nam atque id laudantium nostrum earum nihil corporis debitis quas in, quidem rem natus sequi repudiandae est veritatis distinctio qui delectus architecto velit eligendi. Maxime deserunt minus, soluta ipsa ullam, corrupti. Quisquam, quidem, excepturi! Doloribus nisi dolor esse, quasi magnam, veritatis ea consectetur a optio eum blanditiis quis deserunt, explicabo enim possimus voluptas in laborum libero recusandae molestiae at quae vitae aperiam. Animi deleniti ad velit neque ex? Deserunt, odio.</p>
+    </div>
+  </div>
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
 </body>
