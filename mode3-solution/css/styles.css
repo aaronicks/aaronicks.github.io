@@ -1,0 +1,103 @@
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Comic Sans Ms, sans-serif;
+  color: ;
+}
+header {
+  border: 2px solid black;
+  background-color: grey;
+}
+
+#header-nav {
+  background-color: grey;
+  border: 0;
+  border-radius: 0;
+}
+
+.navbar-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.navbar-brand span {
+  font-size: 2em;
+  margin-top: 20px;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.navbar-toggle {
+  margin-top: 30px;
+  color: white;
+  margin-right: 50px;
+}
+
+
+
+#nav-list {
+  padding-top: 30px;
+  padding-right: 30px;
+}
+
+#nav-list a:nth-child(-n+2) {
+  text-align: center;
+  color: black;
+  font-size: 1.2em;
+}
+
+#nav-list a:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.navbar-header .navbar-toggle,  
+.navbar-header .icon-bar {
+  border: 1px solid black;
+}
+/*******header ends*******/
+
+/*******Main Content******/
+#main-content h1 {
+  text-align: center;
+}
+
+.protein  {
+  font-size: 1.2em;
+  background-color: grey;
+  color: black;
+  border-radius: 2px;
+}
+
+.protein h3 {
+  text-align: center;
+  
+}
+
+
+
+
+
+/***********Large Devices****************/
+@media (min-width: 1200px) {
+
+}
+
+
+/***********Medium Devices****************/
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
+
+
+/************Small Devices***************/
+@media (min-width: 768px) and (max-width: 991px){
+
+}
+
+/************Extra Small***************/
+@media (max-width: 767px) {
+
+}

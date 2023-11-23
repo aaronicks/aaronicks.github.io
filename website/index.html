@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/c75ad3936f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap" rel="stylesheet">
+    <style>
+  * {
+  	font-family: 'Oxygen', sans-serif;
+  }
+/*   Navbar   */
+.navbar a {
+        
+    color: #fff;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.pa-fixed-header {
+  background-color: #e8d5ed !important;
+  -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+}
+
+.text-blue{
+    color: #eb9418 !important;
+}
+}
+/*Navbar ends*/
+#header-carousel {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+	url(../img/banner1.jpg);
+	height: 100px;
+}
+
+    </style>
+  </head>
+  <body>
+  	<!-- header -->
+  	<div class="header">
+
+  		<!-- navbar -->
+  		<nav class="navbar border-body fixed-top py-3 navbar-expand-lg" id="navBar" data-bs-theme="dark">
+  <div class="container">
+    <a class="navbar-brand me-5" href="#home"><small>Aaronicks</small></a>
+    <button class="navbar-toggler text-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon bg-warning"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-warning">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Location
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#destinations">Destinations</a></li>
+            <li><a class="dropdown-item" href="#contact">Contact</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Make US</a></li>
+          </ul>
+        </li>
+        
+      </ul>
+      <form class="d-flex me-5" role="search">
+        <input class="form-control me-2 bg-light border-0" type="search" placeholder="Search" aria-label="Search" id="search">
+        <button class="btn btn-outline-light" type="submit" id="button">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+ <!--navbar  -->
+  	</div>
+  	<!-- header -->
+
+  	<!-- carosel -->
+  	<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="img/banner1.jpg" class="d-block w-100 img-fluid" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Paris on the Go</h5>
+        <p class="my-5 text-warning fs-3 fw-bolder col-lg-12 col-md-l2 col-xs-12 col-xxs-12">Some representative placeholder content for the first slide.</p>
+        <button type="button" class="btn btn-outline-warning btn-lg mb-5 col-lg-12 col-md-l2 col-xs-12 col-xxs-12">Learn More</button>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="10000">
+      <img src="img/3.jpg" class="d-block w-100 img-fluid " alt="hello" id="img1">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Welcome to Toronto</h5>
+        <p class="my-5 text-warning fs-3 fw-bolder">Some representative placeholder content for the first slide.</p>
+        <button type="button" class="btn btn-outline-warning btn-lg mb-5">Learn More</button>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/banner2.jpg" class="d-block w-100 img-fluid" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>We Mean Business</h5>
+     <p class="my-5 text-warning fs-3 fw-bolder">Some representative placeholder content for the first slide.</p>
+        <button type="button" class="btn btn-outline-warning btn-lg mb-5">Learn More</button>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+  	<!-- carolsel -->
+
+<!-- container -->
+ <div class="container mb-5">
+ 	<h1 class="my-5 text-center p-5"> Tour Canada Today!</h1>
+
+ 	<div class="w-100 bg-dark-subtle p-5 fs-6">
+ 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus mollitia vel qui minus ratione deserunt nobis est vero repudiandae suscipit architecto numquam nostrum corrupti omnis officiis, quibusdam, hic tempora magni recusandae, nesciunt non laborum tempore! Non tempore repudiandae enim quos ipsam quisquam ad, possimus, corporis reprehenderit quas cumque fugit laborum earum quibusdam praesentium! Cumque illo, quibusdam ipsam dignissimos dolor corrupti quas esse. Nam sint at deleniti incidunt dignissimos ut neque, corporis itaque nihil eos delectus quo temporibus, modi autem doloribus, nemo architecto aliquam aspernatur impedit repudiandae voluptate, illo amet cum. Ipsa repudiandae explicabo, soluta, expedita veniam quae id qui vero.</p>
+ 		<button type="button" class="btn text-end text-light btn-warning text.end my-2" >Book Your Trip Now</button>
+ 	</div>
+
+ 	<h2 id="destinations" class="my-5 p-4 fs-1 text-center">POPULAR DESTINATIONS</h2>
+ 	<div class="row">
+ 		<!-- col 1 -->
+ 		<div class="col-md-4 col-lg-4 mb-5">
+ 			<div class="card">
+			  <img src="img/travel-1.jpg" class="card-img-top" alt="bathing">
+			  <div class="card-body">
+			    <h5 class="card-title">Banff</h5>
+			    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima sit, pariatur! Inventore odio asperiores mollitia totam magni molestiae vitae natus..</p>
+			    <a href="#" class="btn btn-warning">Read more</a>
+  			</div>
+		 </div>
+ 		</div>
+ 		<!-- col 2 -->
+ 		<div class="col-md-4 col-lg-4 mb-5">
+ 			<div class="card">
+			  <img src="img/travel-2.jpg" class="card-img-top" alt="bathing">
+			  <div class="card-body">
+			    <h5 class="card-title">Banff</h5>
+			    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima sit, pariatur! Inventore odio asperiores mollitia totam magni molestiae vitae natus..</p>
+			    <a href="#" class="btn btn-warning">Read more</a>
+  			</div>
+		 </div>
+ 		</div>
+ 		<!-- col 3 -->
+ 		<div class="col-md-4 col-lg-4  mb-5">
+ 			<div class="card">
+			  <img src="img/travel-4.jpg" class="card-img-top" alt="bathing">
+			  <div class="card-body">
+			    <h5 class="card-title">Banff</h5>
+			    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima sit, pariatur! Inventore odio asperiores mollitia totam magni molestiae vitae natus..</p>
+			    <a href="#" class="btn btn-warning">Read more</a>
+  			</div>
+		 </div>
+ 		</div>
+ 	</div>
+ 	<!-- end of col -->
+ 	</div>
+ 	<!-- end of col -->
+ 	</div>
+ 	<!-- end of col -->
+
+ 	<!-- About -->
+ 	<h2 id="about" class="my-5 p-4 fs-1 text-center">ABOUT</h2>
+ 	<div class="row">
+ 		<!-- col 1 -->
+ 		<div class="col-md-6 col-lg-6">
+ 			<div class="p-5 bg-secondary mx-5 text-light mt-4">
+ 				<h2>Rates</h2>
+ 				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore laborum corporis sequi blanditiis possimus autem magni et repellendus asperiores incidunt facere, ab eum quia adipisci nihil aliquam nemo vel. Quidem ab atque tempore suscipit animi temporibus. Atque ipsam deleniti doloremque deserunt quia in natus facere, laudantium animi ex ad minima.</p>
+ 			</div>
+ 		</div>
+ 		<!-- end of col 1 -->
+
+ 		<!-- col 2 -->
+ 		<div class="col-md-6 col-lg-6">
+ 			<div class="p-5 bg-dark-subtle mx-5 mt-4">
+ 				<h2>Fees</h2>
+ 				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore laborum corporis sequi blanditiis possimus autem magni et repellendus asperiores incidunt facere, ab eum quia adipisci nihil aliquam nemo vel. Quidem ab atque tempore suscipit animi temporibus. Atque ipsam deleniti doloremque deserunt quia in natus facere, laudantium animi ex ad minima.</p>
+ 			</div>
+ 		</div>
+ 		<!-- end of col 2 -->
+
+ 		<!-- col 3 -->
+ 		<div class="col-md-6 col-lg-6">
+ 			<div class="p-5 bg-dark-subtle mx-5 mt-4">
+ 				<h2>Features</h2>
+ 				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore laborum corporis sequi blanditiis possimus autem magni et repellendus asperiores incidunt facere, ab eum quia adipisci nihil aliquam nemo vel. Quidem ab atque tempore suscipit animi temporibus. Atque ipsam deleniti doloremque deserunt quia in natus facere, laudantium animi ex ad minima.</p>
+ 			</div>
+ 		</div>
+ 		<!-- end of col 3 -->
+
+ 		<!-- col 4 -->
+ 		<div class="col-md-6 col-lg-6">
+ 			<div class="p-5 bg-secondary text-light mx-5 mt-4">
+ 				<h2>Popular Sites</h2>
+ 				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore laborum corporis sequi blanditiis possimus autem magni et repellendus asperiores incidunt facere, ab eum quia adipisci nihil aliquam nemo vel. Quidem ab atque tempore suscipit animi temporibus. Atque ipsam deleniti doloremque deserunt quia in natus facere, laudantium animi ex ad minima.</p>
+ 			</div>
+ 		</div>
+ 		<!-- end of col 4 -->
+ 	</div>
+ 	<!-- Contact US -->
+ 	<h2 id="contact" class="my-5 p-4 fs-1 text-center">CONTACT US</h2>
+ 	<div class=" bg-dark-subtle mx-5 p-5 fs-6">
+ 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus mollitia vel qui minus ratione deserunt nobis est vero repudiandae suscipit architecto numquam nostrum corrupti omnis officiis, quibusdam, hic tempora magni recusandae, nesciunt non laborum tempore! Non tempore repudiandae enim quos ipsam quisquam ad, possimus, corporis reprehenderit quas cumque fugit laborum earum quibusdam praesentium! Cumque illo, quibusdam ipsam dignissimos dolor corrupti quas esse. Nam sint at deleniti incidunt dignissimos ut neque, corporis itaque nihil eos delectus quo temporibus, modi autem doloribus, nemo architecto aliquam aspernatur impedit repudiandae voluptate, illo amet cum. Ipsa repudiandae explicabo, soluta, expedita veniam quae id qui vero.</p>
+ 		<button type="button" class="btn text-end text-light btn-warning 
+ 		 text.end my-2" ><a href="abc@bgt.com" class="text-light 
+ 		 text-decoration-none">Contact us for more information</a></button>
+ 		 
+ 	</div>
+
+ </div>
+<!-- end of the container -->
+
+<div class="container shadow mt-5 p-4 rounded col-lg-12 col-md-l2 col-xs-12">
+	<div class="row mx-auto w-100">
+		<h2 id="contact" class="my-5 p-4 fs-1 text-center">RELAX IN BEAUTIFUL CANADA</h2>
+		<img src="img/travel-3.jpg" alt="House">
+		
+	</div>
+</div>
+</div>
+
+
+
+
+<div class="container-fluid bg-dark col-lg-12 col-md-l2 col-sm-12 col-xs-12">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+      </a>
+      <span class="mb-3 mb-md-0 text-warning">©Aaronicks Tutorial 2022 Company, Inc</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-5 fs-2"><a class="text-muted" href="#"><i class="fa-brands fa-square-x-twitter" style="color: #ebc505;"></i></a></li>
+      <li class="ms-5 fs-2"><a class="text-muted" href="#"><i class="fa-brands fa-square-instagram" style="color: #ebc505;"></i></a></li>
+      <li class="ms-5 fs-2"><a class="text-muted" href="#"><i class="fa-brands fa-square-facebook" style="color: #ebc505;"></i></a></li>
+    </ul>
+  </footer>
+</div>
+
+
+
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script>
+
+      window.onscroll = () => {scrollNavbar()};
+
+scrollNavbar = () => {
+    // Target elements
+    const navBar = document.getElementById("navBar");
+    const links = document.querySelectorAll("#navBar a");
+
+  if (document.documentElement.scrollTop > 300) {
+    navBar.classList.add("pa-fixed-header");
+
+    // Change the color of links on scroll
+    for (let i = 0; i < links.length; i++) {
+        const element = links[i];
+        element.classList.add('text-blue');
+    }
+
+  } else {
+    navBar.classList.remove("pa-fixed-header");
+    
+    // Change the color of links back to default
+    for (let i = 0; i < links.length; i++) {
+        const element = links[i];
+        element.classList.remove('text-blue');
+    }
+  }
+}
+    </script>
+  </body>
+</html>

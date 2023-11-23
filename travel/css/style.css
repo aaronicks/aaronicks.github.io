@@ -1,0 +1,186 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 16px;
+}
+body {
+	height: 100vh;
+}
+
+#header-nav {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+	url(../images/banner1.jpg);
+	border-radius: 0;
+	border: 0;
+	height: 50%;
+	background-attachment: fixed;
+	position: relative;
+}
+.navbar {
+	min-height: 1000px;
+	background-position: center;
+	background-size: cover;
+	z-index: -2;
+}
+#logo-img img {
+	width: fit-content;
+	height: 100px;
+	margin: 20px 0 15px 0;
+	display: flex;
+
+}
+.navbar-brand p {
+	color: #fff;
+	font-style: italic;
+	margin-top: -28px;
+	margin-left: 28px;
+}
+.navbar-toggle {
+	margin-top: -80px;
+	margin-right: 50px;
+}
+#nav-list a {
+	color: #fff;
+	font-weight: 500;
+	font-size: 1.2em;
+	margin-top: 30px;
+}
+#nav-list a:active, #nav-list a:hover {
+	color: #0492c2;
+}
+#nav-list .login {
+	color: #fff;
+	border: 2px solid #fff;
+	border-radius: 40px;
+	width: 120px;
+	text-align: center;
+}
+#nav-list .login:active, #nav-list .login:hover {
+	background: #0492c2;
+	color: #fff;
+}
+
+.bbbootstrap {
+    padding: 40px;
+    margin-bottom: 22px;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    background-color: transparent;
+    margin-top: -600px;
+    }
+
+.bbbootstrap .take1 {
+	color: #fff;
+	margin-top: -60px;
+}
+.bbbootstrap .flll {
+	margin-left: 320px;
+	display: flex;
+	align-content: center;
+}
+.bbbootstrap .take2 {
+	margin-left: 450px;
+	display: flex;
+	align-content: center;
+	margin-bottom: 100px;
+	font-style: italic;
+}
+
+.bbbootstrap form {
+    position: relative;
+    width: 540px;
+    margin: 22px auto 0;
+}
+
+span {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+
+.bbbootstrap form input[type="text"] {
+    padding: 15px 20px;
+    padding-right: 100px;
+    border-color: transparent;
+    border-radius: 30px;
+    margin-top: -70px;
+}
+input.InputBox{
+    font-family: "lucida grande", "Lucida Sans Unicode", tahoma, sans-serif;
+    color: #333;
+    font-size: 15px;
+    padding: 3px;
+    margin: 0;
+    width: 250px;
+    background: #fff;
+    border: 1px solid #999;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+
+input[type=text] {
+    box-sizing: border-box;
+}
+
+.InputBox {
+    display: block;
+    width: 100% !important;
+    padding: 6px 12px;
+    font-size: 15px;
+    line-height: 22px;
+    border-radius: 4px;
+}
+
+.bbbootstrap form input[type="submit"] {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    float: right;
+    padding: 10px 25px;
+}
+
+body .Button, body .button {
+    border: 2px solid #1f3d90;
+    background-image: linear-gradient(#00ff7e, #1f3d90);
+}
+
+
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+.Button, .Button:hover, .Button:focus, .Button:active {
+    text-shadow: none;
+    border-color: transparent;
+}
+
+.Button {
+    display: inline-block;
+    padding: 6px 12px;
+    vertical-align: middle;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 22px;
+    border-radius: 0 29px 29px 0; 
+}
+
+
+
+
+
+
+.navbar-nav > li {
+	margin-right: 5px;
+
+}

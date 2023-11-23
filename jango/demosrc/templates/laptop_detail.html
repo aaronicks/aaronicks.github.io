@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block content %}
+	<h1>Welcome to My Laptop Page</h1>
+<nav>
+	<ul>
+		<li><h1>OG Template: {{obj.ram}}gb</h1></li>
+		<li><h1>{{obj.ram}}gb</h1></li>
+		<li><h1>{{obj.graphics|capfirst}}</h1></li>
+		<li><h1>{{obj.os}}</h1></li>
+		<li><h1>{{obj.battery}}</h1></li>
+		<li><h1>$ {{obj.price}}</h1></li>
+	</ul>
+</nav>	
+
+
+
+<nav>
+	<ul>
+	{% for char in my_lst %}
+
+		{% if char == 8 %}
+			<li>{{forloop.counter}} - {{char|add:10}}</li>
+		{% elif char == "abc" %}
+			<li>This is not a number</li>
+		{% else %}
+			<li>{{forloop.counter}} - {{char}}</li>
+		{% endif %}
+		<li>{{forloop.counter}} - {{char}}</li>
+	{% endfor %}
+	</ul>
+</nav>
+{% endblock content %}
+
+
+

@@ -1,0 +1,380 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Afolabi Project</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700;1,800&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/c75ad3936f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="nav-left">
+				<h3 class="logo">Aaronicks Project</h3>
+				<ul>
+					<li><img src="images/notification.png"></li>
+					<li><img src="images/inbox.png"></li>
+					<li><img src="images/video.png"></li>
+				</ul>
+			</div>
+
+			<div class="nav-right">
+				<div class="search-box">
+					<img src="images/search.png" class="search">
+					<input type="text" placeholder="search">
+				</div> 
+				<div class="nav-user-icon online" onclick="settingsMenuToggle()">
+					<img src="images/profile-pic.png">
+				</div>
+			</div>
+
+			<!------Settins Menu---->
+			<div class="setting-menu">
+
+				<div id="dark-btn" class="dark-btn-on">
+					<span></span>
+				</div>
+
+				<div class="setting-menu-inner">
+					
+					<div class="user-profile">
+					<img src="images/profile-pic.png">
+					<div>
+						<p>Afolabi Solanke</p>
+						<a href="#"> See your profile</a>
+					</div>
+				</div>
+				<hr>
+				<div class="user-profile">
+					<img src="images/feedback.png">
+					<div>
+						<p>Give Feeedback</p>
+						<a href="#"> Help us to imporve the new design</a>
+					</div>
+				</div>
+				<hr>
+
+				<div class="setting-links">
+					<img src="images/setting.png" class="settings-icon">
+					<a href="#"> Setting & Privacy. <img src="images/arrow.png" width="10px"></a>
+				</div>
+				<div class="setting-links">
+					<img src="images/help.png" class="settings-icon">
+					<a href="#"> Help & Support. <img src="images/arrow.png" width="10px"></a>
+				</div>
+				<div class="setting-links">
+					<img src="images/display.png" class="settings-icon">
+					<a href="#"> Dispaly & Accessiblity. <img src="images/arrow.png" width="10px"></a>
+				</div>
+				<div class="setting-links">
+					<img src="images/logout.png" class="settings-icon">
+					<a href="#"> Logout <img src="images/arrow.png" width="10px"></a>
+				</div>
+				</div>
+
+				
+			</div>
+
+
+		</nav>
+	</header>
+
+	<div class="container">
+
+		<!------left-side---->
+		<div class="left-sidebar">
+			<div class="imp-links">
+				<a href="#"><img src="images/news.png" alt="latest news">latest news</a>
+				<a href="#"><img src="images/friends.png" alt="friends">friends</a>
+				<a href="#"><img src="images/group.png" alt="group">group</a>
+				<a href="#"><img src="images/marketplace.png" alt="marketplace">marketplace</a>
+				<a href="#"><img src="images/watch.png" alt="watch">watch</a>
+				<a href="#">See More</a>
+			</div>
+			<div class="shortcuts-links">
+				<p>Your Shortcuts</p>
+				<a href="#"><img src="images/shortcut-1.png"> Web Developers</a>
+				<a href="#"><img src="images/shortcut-2.png"> Mobile Developers</a>
+				<a href="#"><img src="images/shortcut-3.png"> Data Analyst</a>
+				<a href="#"><img src="images/shortcut-4.png"> Graphic Designer</a>
+			</div>
+		</div>
+
+
+		<!------main-content---->
+		<div class="main-content">
+
+
+			<div class="story-gallery">
+				<div class="story story1">
+					<img src="images/upload.png">
+					<p>Post Story</p>
+				</div>
+				<div class="story story2">
+					<img src="images/member-1.png">
+					<p>John Wick</p>
+				</div>
+				<div class="story story3">
+					<img src="images/member-2.png">
+					<p>Isreal Washington</p>
+				</div>
+				<div class="story story4">
+					<img src="images/member-3.png">
+					<p>Noah Diaz</p>
+				</div>
+				<div class="story story5">
+					<img src="images/member-4.png">
+					<p>Mike Snipper</p>
+				</div>
+			</div><!----story ends--->
+
+			<!------Write Post---->
+			<div class="write-post-container">
+				<div class="user-profile">
+					<img src="images/profile-pic.png">
+					<div>
+						<p>Afolabi Solanke</p>
+						<small>Public  <i class="fa-solid fa-sort-down" style="color: #626262;"></i></small>
+					</div>
+				</div>
+				<div class="post-input-container">
+					<textarea rows="3" placeholder="what's on your mind, Afolabi"></textarea>
+					<div class="add-post-links">
+						<a href="#"><img src="images/live-video.png">Live Video</a>
+						<a href="#"><img src="images/photo.png">Photo/Video</a>
+						<a href="#"><img src="images/feeling.png">Feeling Activity</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="post-container">
+				<div class="post-row">
+					<div class="user-profile">
+					<img src="images/profile-pic.png">
+					<div>
+						<p>Afolabi Solanke</p>
+						<span>December 25 2023, 13:30 pm</span>
+					</div>
+				</div>
+					<a href="#"> <i class="fas fa-ellipsis-v" ></i></a>
+				</div>
+				
+				<p class="post-text">Subscribe <span>@Tech-Nicks tutorials</span> to watch more and website
+					development and UI design <a href="#">#Tech-Nicks-Turorials</a> 
+					<a href="#">#YourtubeChannle</a></p>
+				<img src="images/feed-image-1.png" class="post-img">
+
+				<div class="post-row">
+					<div class="activity-icons">
+						<div><img src="images/like-blue.png"> 120</div>
+						<div><img src="images/comments.png"> 300</div>
+						<div><img src="images/share.png"> 20</div>
+					</div>
+
+					<div class="post-profile-icon">
+						<img src="images/profile-pic.png"> <i class="fa-solid fa-sort-down" style="color: #626262;"></i>
+					</div>
+				</div>
+		</div><!----end post container ---->
+		<div class="post-container">
+				<div class="post-row">
+					<div class="user-profile">
+					<img src="images/profile-pic.png">
+					<div>
+						<p>Afolabi Solanke</p>
+						<span>December 25 2023, 13:30 pm</span>
+					</div>
+				</div>
+					<a href="#"> <i class="fas fa-ellipsis-v" ></i></a>
+				</div>
+				
+				<p class="post-text">Like and share this this link with friends <span>@Tech-Nicks tutorials</span> to watch more and website
+					development and UI design <a href="#">#Tech-Nicks-Turorials</a> 
+					<a href="\https://whatsapp.com/channel/0029Va4w2vzB4hdaIceiJ13L">#Whatsappchannel</a></p>
+				<img src="images/feed-image-2.png" class="post-img">
+
+				<div class="post-row">
+					<div class="activity-icons">
+						<div><img src="images/like-blue.png"> 120</div>
+						<div><img src="images/comments.png"> 300</div>
+						<div><img src="images/share.png"> 20</div>
+					</div>
+
+					<div class="post-profile-icon">
+						<img src="images/profile-pic.png"> <i class="fa-solid fa-sort-down" style="color: #626262;"></i>
+					</div>
+				</div>
+		</div><!----end post container ---->
+		<div class="post-container">
+				<div class="post-row">
+					<div class="user-profile">
+					<img src="images/profile-pic.png">
+					<div>
+						<p>Afolabi Solanke</p>
+						<span>December 25 2023, 13:30 pm</span>
+					</div>
+				</div>
+					<a href="#"> <i class="fas fa-ellipsis-v" ></i></a>
+				</div>
+				
+				<p class="post-text">Subscribe <span>@Tech-Nicks tutorials</span> to watch more and website
+					development and UI design <a href="#">#Tech-Nicks-Turorials</a> 
+					<a href="#">#YourtubeChannle</a></p>
+				<img src="images/feed-image-3.png" class="post-img">
+
+				<div class="post-row">
+					<div class="activity-icons">
+						<div><img src="images/like-blue.png"> 120</div>
+						<div><img src="images/comments.png"> 300</div>
+						<div><img src="images/share.png"> 20</div>
+					</div>
+
+					<div class="post-profile-icon">
+						<img src="images/profile-pic.png"> <i class="fa-solid fa-sort-down" style="color: #626262;"></i>
+					</div>
+				</div>
+		</div><!----end post container ---->
+		<div class="post-container">
+				<div class="post-row">
+					<div class="user-profile">
+					<img src="images/profile-pic.png">
+					<div>
+						<p>Afolabi Solanke</p>
+						<span>December 25 2023, 13:30 pm</span>
+					</div>
+				</div>
+					<a href="#"> <i class="fas fa-ellipsis-v" ></i></a>
+				</div>
+				
+				<p class="post-text">Subscribe <span>@Tech-Nicks tutorials</span> to watch more and website
+					development and UI design <a href="#">#Tech-Nicks-Turorials</a> 
+					<a href="#">#YourtubeChannle</a></p>
+				<img src="images/feed-image-4.png" class="post-img">
+
+				<div class="post-row">
+					<div class="activity-icons">
+						<div><img src="images/like-blue.png"> 120</div>
+						<div><img src="images/comments.png"> 300</div>
+						<div><img src="images/share.png"> 20</div>
+					</div>
+
+					<div class="post-profile-icon">
+						<img src="images/profile-pic.png"> <i class="fa-solid fa-sort-down" style="color: #626262;"></i>
+					</div>
+				</div>
+		</div><!----end post container ---->
+		<div class="post-container">
+				<div class="post-row">
+					<div class="user-profile">
+					<img src="images/profile-pic.png">
+					<div>
+						<p>Afolabi Solanke</p>
+						<span>December 25 2023, 13:30 pm</span>
+					</div>
+				</div>
+					<a href="#"> <i class="fas fa-ellipsis-v" ></i></a>
+				</div>
+				
+				<p class="post-text">Subscribe <span>@Tech-Nicks tutorials</span> to watch more and website
+					development and UI design <a href="#">#Tech-Nicks-Turorials</a> 
+					<a href="#">#YourtubeChannle</a></p>
+				<img src="images/feed-image-5.png" class="post-img">
+
+				<div class="post-row">
+					<div class="activity-icons">
+						<div><img src="images/like-blue.png"> 120</div>
+						<div><img src="images/comments.png"> 300</div>
+						<div><img src="images/share.png"> 20</div>
+					</div>
+
+					<div class="post-profile-icon">
+						<img src="images/profile-pic.png"> <i class="fa-solid fa-sort-down" style="color: #626262;"></i>
+					</div>
+				</div>
+		</div><!----end post container ---->
+
+		<button type="button" class="load-more-btn"> Load More</button>
+
+		</div>
+		<!------right-side---->
+		<div class="right-sidebar">
+
+			<div class="sidebar-title">
+				<h4>Events</h4>
+				<a href="#">See All</a>
+			</div>
+
+			<div class="event">
+
+				<div class="left-event">
+					<h3>18</h3>
+					<span>March</span>
+				</div>
+
+				<div class="right-event">
+					<h4>Web Dev Training</h4>
+					<p><i class="fa-solid fa-location-dot" style="color: #1876f2;"></i> Aaronicks Hub</p>
+					<a href="#">More Info</a>
+				</div>
+
+			</div>
+			<div class="event">
+
+				<div class="left-event">
+					<h3>30</h3>
+					<span>December</span>
+				</div>
+
+				<div class="right-event">
+					<h4>Graphic Designing Training</h4>
+					<p><i class="fa-solid fa-location-dot" style="color: #1876f2;"></i> Aaronicks Hub</p>
+					<a href="#">More Info</a>
+				</div>
+
+			</div>
+			<div class="sidebar-title sidebar-title-ads">
+				<h4>Advertisement</h4>
+				<a href="#">Close</a>
+			</div>
+			<img src="images/advertisement.png" class="sidebar-ads">
+
+			<div class="sidebar-title sidebar-title-ads">
+				<h4>Conversation</h4>
+				<a href="#">Hide Chat</a>
+			</div>
+
+			<div class="online-list">
+				<div class="online">
+					<img src="images/member-1.png">
+				</div>
+				<p>Alison Mina</p>
+			</div>
+
+			<div class="online-list">
+				<div class="online">
+					<img src="images/member-2.png">
+				</div>
+				<p>Afolabi Solanke</p>
+			</div>
+
+			<div class="online-list">
+				<div class="online">
+					<img src="images/member-3.png">
+				</div>
+				<p>Samona Rose</p>
+			</div>
+
+		</div>
+	</div>
+	<div class="footer">
+		<p>Copyright 2023 - &copy;Tech-nicks Youtube Channel</p> 
+	</div>
+<script src="script.js"></script>
+</body>
+
+
+</html>
+
